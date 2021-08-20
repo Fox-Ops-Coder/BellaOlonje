@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bella Olonje</string>
+    <string name="homeBottomNavText">Home</string>
+    <string name="favoriteBottomNavText">Favorite</string>
+    <string name="youBottomNavText">You</string>
+    <string name="recentBottomNavText">Recent</string>
+    <string name="startFoodImageContentDescription">Изображение еды</string>
+    <string name="bellaOloljeTitleImageStartContentDescription">Bella Ololje Title Image</string>
+    <string name="foodForEveryoneStartTitleText">Food for Everyone</string>
+    <string name="onBoardingBackgroundImage">Orange Background image</string>
+    <string name="getStartedButtonText">Get started</string>
+    <string name="backIconContentDescription">Back icon</string>
+    <string name="ordersText">Orders</string>
+    <string name="noOrdersYetText">No orders yet</string>
+    <string name="orderToolTipText">Hit the orange button down below to Create an order</string>
+    <string name="startOrderingTextButton">Start ordering</string>
+    <string name="basketIconContentDescription">Basket icon</string>
+    <string name="storeTitleText">Delicious food for you</string>
+    <string name="searchIconContentDescription">Search icon</string>
+    <string name="searchText">Search</string>
+    <string name="foodImageContentDescription">Food image</string>
+    <string name="searchHintText">Meal Name</string>
+
+</resources>
