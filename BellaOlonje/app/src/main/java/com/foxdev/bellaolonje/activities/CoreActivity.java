@@ -1,6 +1,7 @@
 package com.foxdev.bellaolonje.activities;
 
 import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.foxdev.bellaolonje.R;
@@ -33,6 +34,7 @@ public final class CoreActivity extends AppActivity {
         LaunchFragment launchFragment = new LaunchFragment();
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.fragmentPlaceholder, launchFragment, "launchScreen")
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
 
         appViewModel = new ViewModelProvider(this)
@@ -64,12 +66,14 @@ public final class CoreActivity extends AppActivity {
         intent.putExtra(categoriesName, categories);
 
         startActivity(intent);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
         finish();
     }
 
     private void CompleteLoad() {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragmentPlaceholder, new OnboardingScreen())
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
     }
 }

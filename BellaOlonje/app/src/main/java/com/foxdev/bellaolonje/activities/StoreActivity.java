@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -50,6 +51,7 @@ public final class StoreActivity extends AppActivity {
 
         fragmentManager.beginTransaction()
                 .add(R.id.storeFragmentsContainer, StoreFragment.NewInstance(categories))
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
 
         getWindow().getDecorView().setSystemUiVisibility(hideSystemUIValue);
@@ -63,11 +65,13 @@ public final class StoreActivity extends AppActivity {
                         fragmentManager.beginTransaction()
                                 .replace(R.id.storeFragmentsContainer,
                                         StoreFragment.NewInstance(categories))
+                                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                                 .commit();
                     } else {
                         fragmentManager.beginTransaction()
                                 .replace(R.id.storeFragmentsContainer,
                                         new OrdersFragment())
+                                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                                 .commit();
                     }
 
@@ -80,6 +84,7 @@ public final class StoreActivity extends AppActivity {
             fragmentManager
                     .beginTransaction()
                     .replace(R.id.storeFragmentsContainer, StoreFragment.NewInstance(categories))
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .commit();
             bottomNavigationView.setSelectedItemId(homeId);
         };
@@ -88,6 +93,7 @@ public final class StoreActivity extends AppActivity {
     public void GoToOrders() {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.storeFragmentsContainer, new OrdersFragment())
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
     }
 
@@ -103,6 +109,7 @@ public final class StoreActivity extends AppActivity {
         findViewById(R.id.bottomNavigationView).setVisibility(View.GONE);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.storeFragmentsContainer, new SearchFragment())
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
     }
 
