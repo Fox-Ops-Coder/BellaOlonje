@@ -59,15 +59,15 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
+            android:gravity="center"
             android:text="@string/orderToolTipText"
             android:textColor="#6a6a6b"
-            android:textSize="16sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/noOrdersText"
-            app:layout_constraintVertical_bias="0.03"
-            android:gravity="center"/>
+            app:layout_constraintVertical_bias="0.03" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/startOrderingButton"

@@ -10,14 +10,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:layout_height="500dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginStart="65dp"
-            android:layout_marginTop="-50dp"
-            android:layout_marginEnd="65dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="-100dp"
+            android:layout_marginEnd="150dp"
             android:layout_marginBottom="70dp"
             app:cardCornerRadius="50dp"
             app:cardElevation="10dp"
@@ -36,7 +36,7 @@
                     android:lines="1"
                     android:text="@{meal.strMeal}"
                     android:textAlignment="center"
-                    android:textSize="18sp"
+                    android:textSize="48sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -50,17 +50,17 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_marginHorizontal="100dp"
+            android:backgroundTint="#ccc"
             app:cardCornerRadius="100dp"
             app:cardElevation="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            android:backgroundTint="#ccc">
+            app:layout_constraintVertical_bias="0.0">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -70,11 +70,11 @@
                     android:id="@+id/mealImage"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
+                    android:contentDescription="@string/foodImageContentDescription"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:contentDescription="@string/foodImageContentDescription" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>

@@ -7,9 +7,9 @@
     <application
         android:name=".core.BellApp"
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/burger"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/burger"
         android:supportsRtl="true"
         android:theme="@style/Theme.BellaOlonje"
         android:noHistory="true">

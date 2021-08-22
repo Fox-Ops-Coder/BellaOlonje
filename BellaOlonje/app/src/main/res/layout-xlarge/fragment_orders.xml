@@ -12,8 +12,8 @@
 
         <ImageButton
             android:id="@+id/orderBackButton"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:background="@color/white"
             android:scaleType="centerInside"
             android:src="@drawable/back"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="@string/ordersText"
             android:textColor="@color/black"
-            android:textSize="28sp"
+            android:textSize="72sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.4"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:text="@string/noOrdersYetText"
             android:textColor="@color/black"
-            android:textSize="32sp"
+            android:textSize="52sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,29 +59,31 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
+            android:gravity="center"
             android:text="@string/orderToolTipText"
             android:textColor="#6a6a6b"
-            android:textSize="16sp"
+            android:textSize="32sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/noOrdersText"
-            app:layout_constraintVertical_bias="0.03"
-            android:gravity="center"/>
+            app:layout_constraintVertical_bias="0.03" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/startOrderingButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginEnd="125dp"
+            android:backgroundTint="#fa4a0c"
             android:text="@string/startOrderingTextButton"
+            android:textSize="48sp"
+            app:cornerRadius="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tipText"
-            android:textSize="28sp"
-            app:layout_constraintVertical_bias="0.9"
-            app:cornerRadius="10dp"
-            android:backgroundTint="#fa4a0c"/>
+            app:layout_constraintVertical_bias="0.9" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

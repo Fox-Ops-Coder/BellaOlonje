@@ -11,6 +11,30 @@
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/drawable/search_card_style.xml" value="0.3828125" />
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/drawable/tab_style.xml" value="0.22135416666666666" />
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/drawable/title_image.xml" value="0.3828125" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/activity_core.xml" value="0.4925" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/activity_store.xml" value="0.4925" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/fragment_launch.xml" value="0.33" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/fragment_onboarding_screen.xml" value="0.33" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/fragment_orders.xml" value="0.5" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/fragment_store.xml" value="0.5" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-large/meal_item.xml" value="0.22" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/activity_core.xml" value="0.20520833333333333" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/activity_store.xml" value="0.20520833333333333" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/fragment_launch.xml" value="0.22" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/fragment_onboarding_screen.xml" value="0.2" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/fragment_orders.xml" value="0.25" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/fragment_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/fragment_store.xml" value="0.36666666666666664" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-normal/meal_item.xml" value="0.25" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/activity_core.xml" value="0.21530054644808744" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/activity_store.xml" value="0.33" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/fragment_launch.xml" value="0.275" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/fragment_onboarding_screen.xml" value="0.18" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/fragment_orders.xml" value="0.275" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/fragment_search.xml" value="0.275" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/fragment_store.xml" value="0.275" />
+        <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout-xlarge/meal_item.xml" value="0.275" />
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout/activity_core.xml" value="0.2016675351745701" />
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout/activity_fullscreen.xml" value="0.264453125" />
         <entry key="..\:/Winter_Forest/Bell/BellaOlonje/app/src/main/res/layout/activity_store.xml" value="0.36666666666666664" />
